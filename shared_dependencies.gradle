@@ -1,0 +1,47 @@
+dependencies {
+    //kotlin
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+    implementation "androidx.core:core-ktx:$coreVersion"
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$viewModelVersion"
+    implementation "androidx.lifecycle:lifecycle-livedata-ktx:$viewModelVersion"
+    implementation "androidx.activity:activity-ktx:1.4.0"
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.navigation:navigation-fragment-ktx:2.3.5'
+    implementation 'androidx.navigation:navigation-ui-ktx:2.3.5'
+    implementation 'com.squareup.picasso:picasso:2.71828'
+
+    implementation "androidx.datastore:datastore-preferences:1.0.0"
+    implementation "com.android.support.test.espresso:espresso-idling-resource:3.0.2"
+    implementation "androidx.paging:paging-runtime:2.1.2"
+
+    //ui
+    implementation "androidx.appcompat:appcompat:$appCompatVersion"
+    implementation "androidx.constraintlayout:constraintlayout:$constraintLayoutVersion"
+    implementation "androidx.recyclerview:recyclerview:$recyclerViewVersion"
+    implementation "com.google.android.material:material:$materialVersion"
+    implementation "com.github.bumptech.glide:glide:$glideVersion"
+
+    //testing
+    testImplementation "junit:junit:$junitVersion"
+    testImplementation "org.mockito:mockito-core:$mockitoVersion"
+    testImplementation "org.mockito:mockito-inline:$mockitoVersion"
+    testImplementation "androidx.arch.core:core-testing:$androidCoreTestVersion"
+    testImplementation "com.nhaarman.mockitokotlin2:mockito-kotlin:$mockitoKotlinVersion"
+    androidTestImplementation "junit:junit:$junitVersion"
+    androidTestImplementation "androidx.test.espresso:espresso-core:$espressoVersion"
+    androidTestImplementation "androidx.test.espresso:espresso-intents:$espressoVersion"
+    androidTestImplementation "androidx.test.espresso:espresso-contrib:$espressoVersion"
+    androidTestImplementation "androidx.test:runner:$androidTestVersion"
+    androidTestImplementation "androidx.test:rules:$androidTestVersion"
+    androidTestImplementation "androidx.test.ext:junit:$junitExtversion"
+
+    //dagger
+    implementation "com.google.dagger:hilt-android:$hilt_version"
+    kapt "com.google.dagger:hilt-android-compiler:$hilt_version"
+    implementation "androidx.hilt:hilt-lifecycle-viewmodel:$hilt_jetpack_version"
+    kapt "androidx.hilt:hilt-compiler:$hilt_jetpack_version"
+    kaptAndroidTest "androidx.hilt:hilt-compiler:$hilt_jetpack_version"
+
+    // leak canary
+    debugImplementation 'com.squareup.leakcanary:leakcanary-android:2.4'
+}

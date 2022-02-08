@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Moviean</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="movie_poster">Movie poster</string>
+    <string name="this_is_movie_description">This is movie description</string>
+    <string name="title_movie">Title</string>
+    <string name="rate_value">4.7</string>
+    <string name="popularity_value">8601.21</string>
+    <string name="description_value">Gellert Grindelwald has escaped imprisonment and has begun gathering followers to his cause—elevating wizards above all non-magical beings. The only one capable of putting a stop to him is the wizard he once called his closest friend, Albus Dumbledore. However, Dumbledore will need to seek help from the wizard who had thwarted Grindelwald once before, his former student Newt Scamander, who agrees to help, unaware of the dangers that lie ahead. Lines are drawn as love and loyalty are tested, even among the truest friends and family, in an increasingly divided wizarding world.</string>
+    <string name="description">Description</string>
+    <string name="favourite">Favourite</string>
+    <string name="home">Home</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="no_fav_movie">There is no Favourite Movie</string>
+    <string name="no_fav_tv">There is no Favourite Tv</string>
+    <string name="title_favourite">Favourite</string>
+</resources>
